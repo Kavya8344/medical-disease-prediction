@@ -1,0 +1,163 @@
+/* ===========================
+   Medical Disease Prediction
+   style.css
+=========================== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#F8F9FA;
+    color:#343A40;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#2D6A4F !important;
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color:#D8F3DC !important;
+}
+
+/* Hero Section */
+
+.hero{
+    background:#D8F3DC;
+    padding:70px 20px;
+    border-radius:12px;
+    margin-top:30px;
+    text-align:center;
+}
+
+.hero h1{
+    color:#2D6A4F;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:18px;
+    margin-top:15px;
+}
+
+/* Buttons */
+
+.btn-custom{
+    background:#40916C;
+    color:white;
+    border:none;
+    padding:10px 25px;
+}
+
+.btn-custom:hover{
+    background:#2D6A4F;
+    color:white;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:12px;
+    box-shadow:0px 2px 10px rgba(0,0,0,.1);
+}
+
+.card-title{
+    color:#2D6A4F;
+    font-weight:bold;
+}
+
+/* Forms */
+
+form{
+    margin-top:20px;
+}
+
+.form-control,
+.form-select{
+    border-radius:8px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#40916C;
+    box-shadow:0 0 5px rgba(64,145,108,.3);
+}
+
+/* Prediction Box */
+
+.result-box{
+    background:#D8F3DC;
+    border-left:5px solid #2D6A4F;
+    padding:20px;
+    border-radius:10px;
+    margin-top:30px;
+    text-align:center;
+}
+
+.result-box h3{
+    color:#2D6A4F;
+}
+
+/* Tables */
+
+.table{
+    background:white;
+}
+
+.table th{
+    background:#2D6A4F;
+    color:white;
+}
+
+/* Footer */
+
+footer{
+    margin-top:50px;
+    background:#2D6A4F;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Headings */
+
+.section-title{
+    color:#2D6A4F;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+/* Contact */
+
+.contact-card{
+    max-width:700px;
+    margin:auto;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero{
+    padding:40px 15px;
+}
+
+.hero h1{
+    font-size:30px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+}

@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-model=joblib.load("model/lr.lb")
+# model=joblib.load("model/lr.lb")
 
 @app.route('/')
 def index():
@@ -25,10 +25,10 @@ def history():
 
 @app.route('/project',methods=['GET','POST'])
 def predict():
-    if request.method=="POST":
-        data=request.get_json()
+    # if request.method=="POST":
+    #     data=request.get_json()
     
     return render_template('project.html')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
